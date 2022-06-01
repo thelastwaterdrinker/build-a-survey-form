@@ -1,0 +1,97 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 id = "title">Leauge of Legends</h1>
+<p id = "description">League of Legends (LoL), commonly referred to as League, is a 2009 multiplayer online battle arena video game developed and published by Riot Games. Inspired by Defense of the Ancients, a custom map for Warcraft III, Riot's founders sought to develop a stand-alone game in the same genre. Since its release in October 2009, League has been free-to-play and is monetized through purchasable character customization. The game is available for Microsoft Windows and macOS.</p>
+
+<p>In the game, two teams of five players battle in player-versus-player combat, each team occupying and defending their half of the map. Each of the ten players controls a character, known as a "champion", with unique abilities and differing styles of play. During a match, champions become more powerful by collecting experience points, earning gold, and purchasing items to defeat the opposing team. In League's main mode, Summoner's Rift, a team wins by pushing through to the enemy base and destroying their "Nexus", a large structure located within.</p>
+
+<p>If you like to join the game, please fill following form to register now:</p>
+
+<form id = "survey-form"
+<label id = "name-label">Name</label>
+<label id = "name-label">Name</label>
+<input 
+type = "text" 
+id = "name" 
+placeholder = "enter your name" required>
+<label id = "email-label">E-mail</label> 
+<input 
+id = "email" 
+type = "email" 
+placeholder = "enter your e-mail" required>
+<label id = "number-label">Age</label>
+<input 
+id = "number" 
+type = "number" 
+min = "1" 
+max = "99" 
+placeholder = "age"
+required>
+<p id = "choose" >Choose your LoL Game:</p>
+<form id = "survey-form">
+<select id = "dropdown" name = "Games">
+  <option value = "Summoner's Rift">Summoner's Rift</option>
+  <option value = "Teamfight Tactics">Teamfight Tactics</option>
+  <option value = "Wild Rift">Wild Rift</option>
+  <option value = "ARAM">ARAM</option>
+</select>
+
+<label id = "team" target>Which position would you like to play?</label>
+<label for = "mid"><input type = "radio" name = "group1" value = "mid">MID</label>
+<label><input type = "radio" name = "group2" value = "duo">DUO</label>
+<label><input type = "radio" name = "group1" value = "solo">SOLO</label>
+<label><input type = "radio" name = "group2" value = "support">SUPPORT</label>
+<label><input type = "radio" name = "group1" value = "jungle">JUNGLE</label>
+<label id = "game-type">Please select the game type you like to play:</label>
+<label for = "ranked"><input type = "checkbox" name = "ranked" value = "ranked">Ranked</label>
+<label><input type = "checkbox" name = "PVP" value = "PVP">PVP</label>
+<label><input type = "checkbox" name = "ROBOTS" value = "solo">Robots</label>
+
+ <label>Tell us something else:</label>
+ <textarea placeholder = "your comments"></textarea>
+<input type='submit' id='submit'>
+  </form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#survey-form {
+  display: grid;
+}
+h1 {
+  background-color: #DCDCDC;
+  padding: 10px;
+  text-align: center;
+}
+body {
+  background-color: #f1e8e8;
+}
+form > label {
+  margin: 5px;
+}
+
+#team {
+  margin: 20px;
+}
+
+textarea {
+  height: 100px;
+}
+
+#submit {
+  margin: 10px;
+}
+
+** end of undefined **
+

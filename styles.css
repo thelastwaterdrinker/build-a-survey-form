@@ -1,0 +1,26 @@
+#survey-form {
+  display: grid;
+}
+h1 {
+  background-color: #DCDCDC;
+  padding: 10px;
+  text-align: center;
+}
+body {
+  background-color: #f1e8e8;
+}
+form > label {
+  margin: 5px;
+}
+
+#team {
+  margin: 20px;
+}
+
+textarea {
+  height: 100px;
+}
+
+#submit {
+  margin: 10px;
+}
